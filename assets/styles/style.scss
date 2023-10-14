@@ -11,9 +11,9 @@ $txtcolor: rgb(5, 5, 5);
 $colortex: rgb(129, 117, 117);
 body {
   background-color: $bgColorA;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding: 0px;
+
   margin: 0px;
+  padding: 0px;
 }
 
 .grid {
@@ -21,18 +21,21 @@ body {
   flex-direction: row;
   margin: 0px;
   padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
   width: 250px;
+  height: 645px;
   background-color: $bgColorB;
-  padding: 10px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   overflow: hidden;
   border-radius: 10px;
   margin-top: 5px;
+
 }
 
 .nameAvatares {
@@ -80,15 +83,22 @@ body {
   font-size: 20px;
   padding: 10px;
 }
+.Boton-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 6px;
+}
 
 .boton {
   background-color: $colorScrollBarThumb;
   color: white;
   border-color: $colorScrollBarTrack;
   border-radius: 10px;
+  padding: 5px 5px; /* Ajusta el relleno según tus necesidades */
   width: 100%;
-  min-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 3px;
 }
 
 .List_avatares {
@@ -135,6 +145,8 @@ body {
 
 .conter_derecho {
   width: 85%;
+  display: contents;
+  height: 645px;
 }
 
 .center-Img-Text {
@@ -143,14 +155,14 @@ body {
   align-items: center;
   text-align: center;
   padding: 20px;
-  width: 90%;
-  height: 700px;
+  width: 85%;
+
 }
 
 .center-img img {
   width: 100%;
-  height: 250px;
-  margin-top: 200px;
+  height: 245px;
+  margin-top: 160px;
 }
 .contenedor_texto {
   margin: 5px;

@@ -2,9 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 body {
   background-color: rgb(247, 247, 247);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 
 .grid {
@@ -12,12 +11,14 @@ body {
   flex-direction: row;
   margin: 0px;
   padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
   width: 250px;
+  height: 645px;
   background-color: rgb(207, 203, 203);
-  padding: 10px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -73,14 +74,22 @@ body {
   padding: 10px;
 }
 
+.Boton-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 6px;
+}
+
 .boton {
   background-color: rgb(179, 145, 211);
   color: white;
   border-color: rgb(247, 162, 255);
   border-radius: 10px;
+  padding: 5px 5px; /* Ajusta el relleno según tus necesidades */
   width: 100%;
-  min-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 3px;
 }
 
 .List_avatares {
@@ -126,6 +135,8 @@ body {
 
 .conter_derecho {
   width: 85%;
+  display: contents;
+  height: 645px;
 }
 
 .center-Img-Text {
@@ -134,14 +145,13 @@ body {
   align-items: center;
   text-align: center;
   padding: 20px;
-  width: 90%;
-  height: 700px;
+  width: 85%;
 }
 
 .center-img img {
   width: 100%;
-  height: 250px;
-  margin-top: 200px;
+  height: 245px;
+  margin-top: 160px;
 }
 
 .contenedor_texto {
